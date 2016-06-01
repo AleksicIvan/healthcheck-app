@@ -1,0 +1,107 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+#navbar {
+	background-color: #003142;
+}
+
+.navbar-default .navbar-brand {
+	color:  white;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;	
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color:#777;
+}
+
+
+.jumbotron {
+	margin-top: 8%;
+	font-family: 'Lato', sans-serif;
+	background-image: url("../img/naslovna.jpg");
+	background-size: cover;
+	background-position: center;
+	color: #ADB9B9;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 4em;
+	color: white;
+}
+
+h3 {
+	color: #D8D1CB;
+}
+
+hr {
+	width: 450px;
+}
+
+#content {
+	text-align: center;
+	color: white;
+	padding-top: 35%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1); 	
+}
+
+.description {
+	text-align: center;
+}
+
+.glyphicon {
+	font-size: 4em;
+}
+
+#glyphicon {
+	font-size: 1em;
+}
+
+
+ul>li {
+	list-style: none;
+	color: #D8D1CB;
+}
+
+ul>li>a {
+	color: #D8D1CB;
+}
+
+#ftr-links>li {
+	display: inline;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+.footer {
+  padding-top: 3%;	
+  margin-top: 5%;	
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  background-color: #003142;
+}
+
+.footer>ul>li>a {
+  color: #D8D1CB;
+}
+
+#greyish {
+	color: grey;
+}
+
+
+
+
+
+

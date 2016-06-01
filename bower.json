@@ -1,0 +1,26 @@
+{
+  "name": "medicine-app",
+  "authors": [
+    "AleksicIvan <g.zunice@gmail.com>"
+  ],
+  "description": "health check helper app",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "health",
+    "check",
+    "medicine",
+    "docotor"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
