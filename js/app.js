@@ -10,10 +10,16 @@ app.config(function($stateProvider, $urlRouterProvider) {
 		controller: 'MainCtrl'
 	});
 
-	$stateProvider.state('home', { 
-		url: '/home',
-		templateUrl: 'main.html',
-		controller: 'HomeCtrl'
+	$stateProvider.state('login', { 
+		url: '/login',
+		templateUrl: '../partials/login.html',
+		controller: 'LoginCtrl'
+	});
+
+	$stateProvider.state('dashboard', { 
+		url: '/dashboard',
+		templateUrl: '../partials/dashboard.html',
+		controller: 'DashboardCtrl'
 	});
 });
 
@@ -38,6 +44,7 @@ app.service('Areas', function() {
 
 	return areas;
 }); 
+
 
 
 
