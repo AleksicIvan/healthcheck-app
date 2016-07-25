@@ -1,0 +1,9 @@
+<div class="row general-margin-top ">
+    <div class="well-lg" ng-repeat="check in allHealthChecks">
+      <h1>{{check.when}}</h1>
+      <object width="80%" height="500em" data="{{check.report}}" type="application/pdf">
+         <p>It appears you don't have Adobe Reader or PDF support in this web browser. <a href="lorem.pdf">Click here to download the PDF</a>. Or <a href="http://get.adobe.com/reader/" target="_blank">click here to install Adobe Reader</a>.</p>
+         <embed src="{{check.report}}" type="application/pdf" />
+      </object>
+    </div>
+</div>

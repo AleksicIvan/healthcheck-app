@@ -6,10 +6,10 @@ app.controller('LoginCtrl', ['$scope', '$location', '$log', '$rootScope', functi
 	$scope.submit = function() {
 		if($scope.username === 'adm' && $scope.password === 'mda') {
 			$rootScope.isUserLoggedIn = true;
-			$location.path('/dashboard');
+			$location.path('/areas');
 		} else {
 			$location.path('/login');
 			$scope.error = 'You have entered invalid username/password!';
 		}
-	};	
+	};
 }]);

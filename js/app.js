@@ -10,13 +10,26 @@ app.config(function($stateProvider, $urlRouterProvider) {
 		controller: 'MainCtrl'
 	});
 
-	$stateProvider.state('login', { 
+	$stateProvider.state('login', {
 		url: '/login',
 		templateUrl: '../partials/login.html',
 		controller: 'LoginCtrl'
 	});
 
-	$stateProvider.state('dashboard', { 
+	$stateProvider.state('areas', {
+		url: '/areas',
+		templateUrl: '../partials/areas.html',
+		controller: 'AreasCtrl'
+	});
+
+	$stateProvider.state('onkology', {
+		url: '/onkology',
+		templateUrl: '../partials/onkology.html',
+		controller: 'OnkologyCtrl'
+	});
+
+
+	$stateProvider.state('dashboard', {
 		url: '/dashboard',
 		templateUrl: '../partials/dashboard.html',
 		controller: 'DashboardCtrl'
@@ -26,26 +39,26 @@ app.config(function($stateProvider, $urlRouterProvider) {
 app.service('Areas', function() {
 		var areas = [
 		{
-			name: 'Onkology'
+			name: 'Onkology',
+			route: '/onkology'
 		},
 		{
-			name: 'Urology'
+			name: 'Urology',
+			route: '/urology'
 		},
 		{
-			name: 'Endocrinology'
+			name: 'Endocrinology',
+			route: '/endocrinology'
 		},
 		{
-			name: 'Cardiology'
+			name: 'Cardiology',
+			route: '/cardiology'
 		},
 		{
-			name: 'Internal Medicine'
+			name: 'Internal Medicine',
+			route: '/internal'
 		}
 	];
 
 	return areas;
-}); 
-
-
-
-
-	
+});
